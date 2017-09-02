@@ -1,0 +1,10 @@
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\Csharp_Day10-L10-solu\bin\Debug\Csharp_Day10-L10-solu.exe.config
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\Csharp_Day10-L10-solu\bin\Debug\Csharp_Day10-L10-solu.exe
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\Csharp_Day10-L10-solu\bin\Debug\Csharp_Day10-L10-solu.pdb
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\Csharp_Day10-L10-solu\bin\Debug\EntityFramework.dll
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\Csharp_Day10-L10-solu\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\Csharp_Day10-L10-solu\bin\Debug\EntityFramework.xml
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\Csharp_Day10-L10-solu\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\Csharp_Day10-L10-solu\obj\Debug\Csharp_Day10-L10-solu.csproj.CoreCompileInputs.cache
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\Csharp_Day10-L10-solu\obj\Debug\Csharp_Day10-L10-solu.exe
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\Csharp_Day10-L10-solu\obj\Debug\Csharp_Day10-L10-solu.pdb
