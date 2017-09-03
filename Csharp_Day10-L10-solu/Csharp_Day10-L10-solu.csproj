@@ -52,46 +52,47 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Automobel.cs">
-      <DependentUpon>Day10_Solu.tt</DependentUpon>
+      <DependentUpon>Day10Entity_Solu_Model.tt</DependentUpon>
     </Compile>
-    <Compile Include="Day10_Solu.Context.cs">
+    <Compile Include="Day10Entity_Solu_Model.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Day10_Solu.Context.tt</DependentUpon>
+      <DependentUpon>Day10Entity_Solu_Model.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Day10_Solu.cs">
+    <Compile Include="Day10Entity_Solu_Model.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Day10_Solu.tt</DependentUpon>
+      <DependentUpon>Day10Entity_Solu_Model.tt</DependentUpon>
     </Compile>
-    <Compile Include="Day10_Solu.Designer.cs">
+    <Compile Include="Day10Entity_Solu_Model.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Day10_Solu.edmx</DependentUpon>
+      <DependentUpon>Day10Entity_Solu_Model.edmx</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sale.cs">
-      <DependentUpon>Day10_Solu.tt</DependentUpon>
+      <DependentUpon>Day10Entity_Solu_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_helpdiagramdefinition_Result.cs">
-      <DependentUpon>Day10_Solu.tt</DependentUpon>
+      <DependentUpon>Day10Entity_Solu_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_helpdiagrams_Result.cs">
-      <DependentUpon>Day10_Solu.tt</DependentUpon>
+      <DependentUpon>Day10Entity_Solu_Model.tt</DependentUpon>
     </Compile>
     <Compile Include="sysdiagram.cs">
-      <DependentUpon>Day10_Solu.tt</DependentUpon>
+      <DependentUpon>Day10Entity_Solu_Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="TaxManager\TaxManagerClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <EntityDeploy Include="Day10_Solu.edmx">
+    <EntityDeploy Include="Day10Entity_Solu_Model.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Day10_Solu.Designer.cs</LastGenOutput>
+      <LastGenOutput>Day10Entity_Solu_Model.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Day10_Solu.edmx.diagram">
-      <DependentUpon>Day10_Solu.edmx</DependentUpon>
+    <None Include="Day10Entity_Solu_Model.edmx.diagram">
+      <DependentUpon>Day10Entity_Solu_Model.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
@@ -99,21 +100,25 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Auto_Mobile\Auto_Mobile.csproj">
+      <Project>{a9cdd977-6353-45a7-bef6-34649ce8c679}</Project>
+      <Name>Auto_Mobile</Name>
+    </ProjectReference>
     <ProjectReference Include="..\StringBuilder_DateTime\StringBuilder_DateTime.csproj">
       <Project>{1d3d144b-86dc-432b-aa3c-5b9955743f86}</Project>
       <Name>StringBuilder_DateTime</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Day10_Solu.Context.tt">
+    <Content Include="Day10Entity_Solu_Model.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Day10_Solu.edmx</DependentUpon>
-      <LastGenOutput>Day10_Solu.Context.cs</LastGenOutput>
+      <DependentUpon>Day10Entity_Solu_Model.edmx</DependentUpon>
+      <LastGenOutput>Day10Entity_Solu_Model.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Day10_Solu.tt">
+    <Content Include="Day10Entity_Solu_Model.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Day10_Solu.edmx</DependentUpon>
-      <LastGenOutput>Day10_Solu.cs</LastGenOutput>
+      <DependentUpon>Day10Entity_Solu_Model.edmx</DependentUpon>
+      <LastGenOutput>Day10Entity_Solu_Model.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,5 @@
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\StringBuilder_DateTime\bin\Debug\StringBuilder_DateTime.dll
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\StringBuilder_DateTime\bin\Debug\StringBuilder_DateTime.pdb
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\StringBuilder_DateTime\obj\Debug\StringBuilder_DateTime.csproj.CoreCompileInputs.cache
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\StringBuilder_DateTime\obj\Debug\StringBuilder_DateTime.dll
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\StringBuilder_DateTime\obj\Debug\StringBuilder_DateTime.pdb

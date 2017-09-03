@@ -1,0 +1,5 @@
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\Auto_Mobile\bin\Debug\Auto_Mobile.dll
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\Auto_Mobile\bin\Debug\Auto_Mobile.pdb
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\Auto_Mobile\obj\Debug\Auto_Mobile.csproj.CoreCompileInputs.cache
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\Auto_Mobile\obj\Debug\Auto_Mobile.dll
+C:\Users\Anubis\VsPj\FundationPj_Practice\CsDay10-L10-solu\Auto_Mobile\obj\Debug\Auto_Mobile.pdb

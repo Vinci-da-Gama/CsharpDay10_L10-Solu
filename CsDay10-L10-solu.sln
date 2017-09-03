@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp_Day10-L10-solu", "Cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilder_DateTime", "StringBuilder_DateTime\StringBuilder_DateTime.csproj", "{1D3D144B-86DC-432B-AA3C-5B9955743F86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auto_Mobile", "Auto_Mobile\Auto_Mobile.csproj", "{A9CDD977-6353-45A7-BEF6-34649CE8C679}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1D3D144B-86DC-432B-AA3C-5B9955743F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D3D144B-86DC-432B-AA3C-5B9955743F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D3D144B-86DC-432B-AA3C-5B9955743F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9CDD977-6353-45A7-BEF6-34649CE8C679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9CDD977-6353-45A7-BEF6-34649CE8C679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9CDD977-6353-45A7-BEF6-34649CE8C679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9CDD977-6353-45A7-BEF6-34649CE8C679}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

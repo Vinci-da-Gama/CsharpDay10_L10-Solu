@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Day10_SoluModelStoreContainer" CdmEntityContainer="Day10_Solu_Entities_Model">
+    <EntitySetMapping Name="Sales">
+      <EntityTypeMapping TypeName="IsTypeOf(Day10_SoluModel.Sale)">
+        <MappingFragment StoreEntitySet="Sales">
+          <ScalarProperty Name="SalesId" ColumnName="SalesId" />
+          <ScalarProperty Name="SalesAmt" ColumnName="SalesAmt" />
+          <ScalarProperty Name="SalesDate" ColumnName="SalesDate" />
+          <ScalarProperty Name="TaxAmt" ColumnName="TaxAmt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
