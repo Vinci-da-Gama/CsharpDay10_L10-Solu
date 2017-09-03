@@ -51,70 +51,70 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Customer.cs">
-      <DependentUpon>Day10EntitySolu_Model.tt</DependentUpon>
+    <Compile Include="Automobel.cs">
+      <DependentUpon>Day10_Solu.tt</DependentUpon>
     </Compile>
-    <Compile Include="Day10EntitySolu_Model.Context.cs">
+    <Compile Include="Day10_Solu.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Day10EntitySolu_Model.Context.tt</DependentUpon>
+      <DependentUpon>Day10_Solu.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Day10EntitySolu_Model.cs">
+    <Compile Include="Day10_Solu.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Day10EntitySolu_Model.tt</DependentUpon>
+      <DependentUpon>Day10_Solu.tt</DependentUpon>
     </Compile>
-    <Compile Include="Day10EntitySolu_Model.Designer.cs">
+    <Compile Include="Day10_Solu.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Day10EntitySolu_Model.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="GetCustomerByState_Result.cs">
-      <DependentUpon>Day10EntitySolu_Model.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Order.cs">
-      <DependentUpon>Day10EntitySolu_Model.tt</DependentUpon>
+      <DependentUpon>Day10_Solu.edmx</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SelectAllCustomers_Result.cs">
-      <DependentUpon>Day10EntitySolu_Model.tt</DependentUpon>
+    <Compile Include="Sale.cs">
+      <DependentUpon>Day10_Solu.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_helpdiagramdefinition_Result.cs">
-      <DependentUpon>Day10EntitySolu_Model.tt</DependentUpon>
+      <DependentUpon>Day10_Solu.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_helpdiagrams_Result.cs">
-      <DependentUpon>Day10EntitySolu_Model.tt</DependentUpon>
+      <DependentUpon>Day10_Solu.tt</DependentUpon>
     </Compile>
     <Compile Include="sysdiagram.cs">
-      <DependentUpon>Day10EntitySolu_Model.tt</DependentUpon>
+      <DependentUpon>Day10_Solu.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <EntityDeploy Include="Day10EntitySolu_Model.edmx">
+    <EntityDeploy Include="Day10_Solu.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Day10EntitySolu_Model.Designer.cs</LastGenOutput>
+      <LastGenOutput>Day10_Solu.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Day10EntitySolu_Model.edmx.diagram">
-      <DependentUpon>Day10EntitySolu_Model.edmx</DependentUpon>
+    <None Include="Day10_Solu.edmx.diagram">
+      <DependentUpon>Day10_Solu.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Day10EntitySolu_Model.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Day10EntitySolu_Model.Context.cs</LastGenOutput>
-      <DependentUpon>Day10EntitySolu_Model.edmx</DependentUpon>
-    </Content>
-    <Content Include="Day10EntitySolu_Model.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Day10EntitySolu_Model.edmx</DependentUpon>
-      <LastGenOutput>Day10EntitySolu_Model.cs</LastGenOutput>
-    </Content>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <ProjectReference Include="..\StringBuilder_DateTime\StringBuilder_DateTime.csproj">
+      <Project>{1d3d144b-86dc-432b-aa3c-5b9955743f86}</Project>
+      <Name>StringBuilder_DateTime</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Day10_Solu.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Day10_Solu.edmx</DependentUpon>
+      <LastGenOutput>Day10_Solu.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Day10_Solu.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Day10_Solu.edmx</DependentUpon>
+      <LastGenOutput>Day10_Solu.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
